@@ -1,0 +1,17 @@
+{
+	"a": "1",
+	"b": [
+		2,
+		3,
+		4
+	],
+	"c": {
+		"5": true
+	},
+	"d": {
+		"e": {
+			"f": "six"
+		}
+	},
+	"save": "this should be renamed automatically"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "nano-config",
+  "version": "0.1.0",
+  "description": "A simple, dependency-free configuration helper with a nano API.",
+  "main": "nano-config.js",
+  "scripts": {
+    "test": "cd test & mocha"
+  },
+  "keywords": [
+    "config",
+    "configuration",
+    "cfg",
+    "settings"
+  ],
+  "author": "James Romeril <j.romeril@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^1.19.0"
+  }
+}
