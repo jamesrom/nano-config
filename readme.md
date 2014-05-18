@@ -1,4 +1,5 @@
-# nano-config
+[![nano-config logo](http://istheblockchainforked.com/script/nano-config.png)](http://expressjs.com/)
+
 A simple, dependency-free configuration helper with a nano API.
 
 ```js
