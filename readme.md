@@ -19,7 +19,7 @@ Okay, cool. You just saved some JSON. Who cares?
 ## It's global
 You only need to load a configuration file once. Here's some other part of your application.
 ```js
-var config = require('config');
+var config = require('nano-config');
 console.log('hello ' + config.greet);
 ```
 Outputs
@@ -32,14 +32,14 @@ nano-config doesn't depend on any modules, doesn't care about environment variab
 
 Do you need to load a specific configuration file for a specific environment? Do it yourself.
 ```js
-var config = require('config')('./' + process.env.NODE_ENV + '.json')
+var config = require('nano-config')('./' + process.env.NODE_ENV + '.json')
 ```
 
 ##It's flexible
 Custom serialization. Prefer CSON?
 ```js
 var CSON = require('cson');
-var config = require('config');
+var config = require('nano-config');
 config.deserialize = function(string) {
 	return CSON.parseSync(string);
 }
