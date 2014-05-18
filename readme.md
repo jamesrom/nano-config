@@ -6,7 +6,7 @@ var config = require('nano-config')('./my-configuration.json');
 config.greet = 'world';
 config.save()
 ```
-Creates `my-configuration.json`
+Loads `my-configuration.json`. If it doesn't exist it will be created when you call `save`.
 ```json
 {
 	"hello": "world"
