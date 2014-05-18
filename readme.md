@@ -10,7 +10,7 @@ config.save()
 Loads `my-configuration.json`. If it doesn't exist it will be created when you call `save`.
 ```json
 {
-	"hello": "world"
+	"greet": "world"
 }
 ```
 
