@@ -38,6 +38,7 @@ var config = require('config')('./' + process.env.NODE_ENV + '.json')
 Custom serialization. Prefer CSON?
 ```js
 var CSON = require('cson');
+var config = require('config');
 config.deserialize = function(string) {
 	return CSON.parseSync(string);
 }
