@@ -1,6 +1,6 @@
 {
   "name": "nano-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple, dependency-free configuration helper with a nano API.",
   "main": "nano-config.js",
   "scripts": {
