@@ -33,6 +33,9 @@ function load(file) {
 			module.exports[prop] = config[prop];
 		}
 	}
+
+	// return self
+	return module.exports;
 }
 
 function save(callback) {
