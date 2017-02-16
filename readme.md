@@ -1,4 +1,4 @@
-[![nano-config logo](http://istheblockchainforked.com/script/nano-config.png)](https://github.com/jamesrom/nano-config/)
+[![nano-config logo](http://jamesromeril.com/nano-config.png)](https://github.com/jamesrom/nano-config/)
 
 A simple, dependency-free configuration helper with a nano API.
 
