@@ -45,6 +45,12 @@ function save(callback) {
 			config[prop] = module.exports[prop];
 		}
 	}
+
+	if (!callback) {
+		fs.writeFileSync(_file, module.exports.serialize(config);
+		return;
+	}
+
 	fs.writeFile(_file, module.exports.serialize(config), callback);
 }
 
@@ -56,9 +62,8 @@ function deserialize(string) {
 	return JSON.parse(string);
 }
 
-var reserved = ['load', 'save', 'serialize', 'deserialize'];
 function isReserved(string) {
-	return reserved.indexOf(string) !== -1;
+	return ['load', 'save', 'serialize', 'deserialize'].indexOf(string) !== -1;
 }
 
 module.exports = load;
